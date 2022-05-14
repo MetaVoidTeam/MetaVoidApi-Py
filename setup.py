@@ -1,23 +1,28 @@
 import setuptools
 
-with open("README.md", "r") as k:
-    long_description = k.read()
+
+with open("README.md", "r") as txt:
+    long_description = txt.read()
 
 setuptools.setup(
-    name="MetaVoid-Py",
-    version="0.8",
-    author="MetaVoidTeam",
-    description="Simple MetaVoid API Wrapper",
+    name='metaapi',
+    version='1.0.0',
+    description='Metavoid Api Wrapper',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/MetaVoidTeam/MetaVoid-Py",
+    license='License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
+    author='metavoid',
+    author_email='metavoidteam@gmail.com',
+    url='https://github.com/metavoidteam/metaapi-py.git',
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent",
     ],
-    python_requires='>= 3.6',
-    include_package_data=True,
-    install_requires=["requests"]
+    install_requires= ['requests'],
+    python_requires='>=3.6'
 )
