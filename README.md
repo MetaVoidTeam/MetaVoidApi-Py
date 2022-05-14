@@ -143,4 +143,4 @@ x = META()
 print(x.torrent_nyaa("pokemon", "1"))
 ```
 
-<i>Checkout code at <a href="github.com/metavoidteam/MetaApi-Py/blob/master/main.py">main.py</a></i>
+<i>Checkout code at <a href="github.com/metavoidteam/MetaVoidApi-Py/blob/master/main.py">main.py</a></i>
