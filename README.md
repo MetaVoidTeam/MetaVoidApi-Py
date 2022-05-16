@@ -19,7 +19,13 @@ To get wallpaper images
 ```
 from metaapi import META
 x = META()
-print(x.wallpaper("Pokemon", "1"))
+print(x.wallpaper("alphacoder", "Pokemon", "1"))
+```
+
+```
+from metaapi import META
+x = META()
+print(x.wallpaper("wallhaven", "Pokemon", "1"))
 ```
 
 To get anime images
@@ -143,4 +149,4 @@ x = META()
 print(x.torrent_nyaa("pokemon", "1"))
 ```
 
-<i>Checkout code at <a href="github.com/metavoidteam/MetaVoidApi-Py/blob/master/main.py">main.py</a></i>
+<i>Checkout code at <a href="github.com/metavoidteam/MetaApi-Py/blob/master/main.py">main.py</a></i>
